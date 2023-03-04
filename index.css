@@ -1,0 +1,77 @@
+head{
+    height: 70px;
+    
+justify-content: space-between;
+
+}
+.logo{
+    display: flex;
+}
+.logo img{
+height: 50px;
+
+}
+.titulo{
+
+    color: white;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 40px;
+text-transform: uppercase;
+font-weight: 600;
+text-shadow: 2px 2px rgb(5, 5, 5);
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+letter-spacing: 5px;
+justify-content: center;
+align-items: flex-start;
+
+
+}
+.p{
+
+    font-family: 'Indie Flower', cursive;
+
+}
+body{
+  
+    justify-content: center;
+   align-items: flex-start;
+
+    background: url(https://i.pinimg.com/originals/97/e7/c2/97e7c21b1e9ba1725b150f6b40c2192c.gif);
+    background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+}
+#contenedor{
+float: right;
+justify-content: center;
+align-items: center;
+}
+.banner_img{
+float: right;
+animation: movimiento 2.5s linear infinite;
+}
+.banner_img{
+    display: block;
+    background-position-x: center;
+}
+@keyframes movimiento{
+    0%{
+        transform: translateY(0);
+    }
+50%{
+    transform: translateY(30px);
+
+}
+100px{
+    transform: translateY(0);
+
+}
+
+}
+.imagenes{
+   border-radius: 50px;
+  
+}
+
